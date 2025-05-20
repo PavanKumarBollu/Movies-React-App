@@ -54,6 +54,7 @@ const errorMassageForNetWorkLost =
   "Can't Load the Movies Please Check Your Internet connection  and try Again..!";
 
 const apiKey = "baa0df64";
+
 export default function App() {
   const [query, setQuery] = useState("test");
   const [movies, setMovies] = useState([]);
